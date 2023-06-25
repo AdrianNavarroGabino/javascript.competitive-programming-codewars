@@ -1,7 +1,5 @@
 const toDayOfYear = (arr) => ((new Date(arr[2], arr[1] - 1, arr[0])).getTime() - (new Date(arr[2] - 1, 11, 31)).getTime()) / (1000 * 3600 * 24);
 
-console.log(toDayOfYear([1,3,1524]));
-
 /*
 Instructions:
 
